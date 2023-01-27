@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 """
+Revision 1.1
 Build a half-adder quantum circuit that takes two bits as input,
 encodes them into qubits, then runs the half-adder circuit calculating
 the sum and carry qubits, observed over 1000 runs of the experiment
