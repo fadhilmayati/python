@@ -13,6 +13,8 @@ https://qiskit.org/textbook/ch-states/atoms-computation.html#4.2-Remembering-how
 
 import qiskit as q
 
+##Initial comment by fadhilmayati##
+
 
 def half_adder(bit0: int, bit1: int) -> q.result.counts.Counts:
     """
