@@ -1,6 +1,4 @@
 # This is a comment in Python
-# It can be used to include information about the author, date, purpose of the program, etc.
-
 # Author: fadhilmayati
 # Date: Februrary 1, 2023
 # Purpose: This program is a hangman game
