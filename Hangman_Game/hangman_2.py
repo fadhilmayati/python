@@ -10,7 +10,7 @@
 import random
 
 def hangman():
-    words = ["tiger", "superman", "thor", "doraemon", "avenger", "water", "stream", "love"]
+    words = ["tiger", "superman", "sand" , "thor", "doraemon", "avenger", "water", "stream", "love"]
     word = random.choice(words)
     turns = 10
     guessed = set()
