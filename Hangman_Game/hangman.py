@@ -1,7 +1,9 @@
 import random
+#from english_words import get_english_words_set
 
 def hangman():
-    word = random.choice(["tiger", "superman", "thor", "doraemon", "avenger", "water", "stream", "love"])
+    word = random.choice(["tiger", "superman", "thor", "doraemon", "avenger", "water", "stream", "love", "ularmak"])
+    #word = random.choice(get_english_words_set)
     validletter = 'abcdefghijklmnopqrstuvwxyz'
     turns = 10
     guessmade = ''
