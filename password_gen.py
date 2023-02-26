@@ -1,6 +1,7 @@
 # Created by Fadhil Mayati
 # Date 26 February 2023
 
+import sys
 import string
 import random
 
@@ -14,8 +15,10 @@ def generate_password(length, special_chars):
     password = ''.join(random.choice(chars) for i in range(length))
     return password
 
-# Get user input
-length = int(input("Enter the password length: "))
+# Get password length from command-line argument
+length = int(sys.argv[1])
+
+# Determine if special characters should be included
 special_chars = input("Include special characters? (y/n): ").lower() == 'y'
 
 # Generate the password
@@ -23,3 +26,4 @@ password = generate_password(length, special_chars)
 
 # Print the password
 print("Your password is:", password)
+
