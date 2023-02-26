@@ -15,11 +15,9 @@ def generate_password(length, special_chars):
     password = ''.join(random.choice(chars) for i in range(length))
     return password
 
-# Get password length from command-line argument
+# Get user input
 length = int(sys.argv[1])
-
-# Determine if special characters should be included
-special_chars = input("Include special characters? (y/n): ").lower() == 'y'
+special_chars = sys.argv[2].lower() == 'y'
 
 # Generate the password
 password = generate_password(length, special_chars)
