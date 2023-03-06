@@ -1,33 +1,8 @@
-My First Repo
-This is my first repository on Github. It contains a simple Python script that demonstrates a basic quantum circuit using the Qiskit library.
+Python Learning Curve
+This project is consist of multiple Python program.
 
-Getting Started
-These instructions will help you run the script on your local machine.
+Installation
+To run this program, you will need to have Python 3 installed on your computer. You can download the latest version of Python from the official Python website.
 
-Prerequisites
-Python 3.11
-Qiskit library
-Installing
-Clone the repository to your local machine
-Copy code
-git clone https://github.com/<your-username>/my-first-repo.git
-Install the Qiskit library
-Copy code
-pip install qiskit
-Running the script
-Navigate to the directory where the script is located
-Copy code
-cd my-first-repo
-Run the script
-Copy code
-python half_adder.py
-Author
-Your Name - Your Github Profile
-License
-This project is licensed under the MIT License - see the LICENSE.md file for details
-
-Acknowledgments
-Thanks to the Qiskit community for the documentation and examples that helped me learn.
-Inspiration: Qiskit Textbook.
-
-2/1/2023
+Contact
+If you have any questions or feedback about this project, you can contact the author at muhammadfadhilmayati@gmail.com
